@@ -118,7 +118,6 @@ function App() {
         {/* Right Column: Main Content */}
         <div className="col-sm-12 col-md-8">
           <Routes>
-            <Route path="/" element={<HomeComponent />} />
             <Route path="/home" element={<HomeComponent />} />
             <Route path="/tools" element={<ToolsComponent />} />
             <Route path="/experience" element={<ExperienceComponent />} />
