@@ -83,7 +83,7 @@ function App() {
             color: '#fff !important',
           }}>
             <li className="nav-item">
-              <Link className="nav-link active text-white" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="bottom" data-bs-title="Home" aria-current="page" to="/home">Home</Link>
+              <Link className="nav-link active text-white" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="bottom" data-bs-title="Home" aria-current="page" to="/">Home</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link active text-white" aria-current="page" to="/tools">Tools</Link>
@@ -118,7 +118,7 @@ function App() {
         {/* Right Column: Main Content */}
         <div className="col-sm-12 col-md-8">
           <Routes>
-            <Route path="/home" element={<HomeComponent />} />
+            <Route path="/" element={<HomeComponent />} />
             <Route path="/tools" element={<ToolsComponent />} />
             <Route path="/experience" element={<ExperienceComponent />} />
             <Route path="/project" element={<ProjectComponent />} />
