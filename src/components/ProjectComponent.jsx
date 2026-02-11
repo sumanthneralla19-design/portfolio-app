@@ -27,28 +27,36 @@ export default function ProjectComponent() {
           </h1>
         </section>
 
-        <div className="col-7 d-flex align-items-start gap-3 my-4">
 
-          <div className="table2">
-            <img
-              src={application}
-              alt="Job Application Tracker"
-              style={{ width: '4rem', height: '4rem', padding: '2px' }}
-            />
+        <a
+          href="https://sumanthneralla19-design.github.io/react-app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-decoration-none"
+        >
+          <div className="col-7 d-flex align-items-start gap-3 my-4">
+
+            <div className="table2">
+              <img
+                src={application}
+                alt="Job Application Tracker"
+                style={{ width: '4rem', height: '4rem', padding: '2px' }}
+              />
+            </div>
+
+            {/* TEXT CONTAINER */}
+            <div className="d-flex flex-column">
+              <p className="display-7 fw-bold text-white mb-1">
+                Job Application Tracker
+              </p>
+
+              <p className="mb-0 text-white">
+                A web application built using React to track job applications and manage the job search process.
+              </p>
+            </div>
+
           </div>
-
-          {/* TEXT CONTAINER */}
-          <div className="d-flex flex-column">
-            <p className="display-7 fw-bold text-white mb-1">
-              Job Application Tracker
-            </p>
-
-            <p className="mb-0 text-white">
-              A web application built using React to track job applications and manage the job search process.
-            </p>
-          </div>
-
-        </div>
+        </a>
 
 
 

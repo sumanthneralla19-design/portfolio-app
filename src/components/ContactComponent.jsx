@@ -66,7 +66,7 @@ export default function ContactComponent() {
               >
                 <div
                   className="box"
-                  style={{
+                  style={{ 
                     width: '4rem',
                     height: '4rem',
                     borderRadius: '10px',
@@ -101,7 +101,7 @@ export default function ContactComponent() {
             <label htmlFor="exampleFormControlTextarea1" className="form-label text-white fw-bold">Message</label>
             <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
-          <button type="submit" className="btn" style={{ backgroundColor: 'orange', color: '#fff' }}>Submit</button>
+          <button type="submit" className="btn px-4" style={{ backgroundColor: 'orange', color: '#fff' }}>Submit</button>
 
 
         </motion.section >
