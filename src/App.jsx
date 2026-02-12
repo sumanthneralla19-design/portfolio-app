@@ -60,7 +60,7 @@ function App() {
         color: '#fff', // White text color
       }}>
         <div className="container">
-          <Link className="navbar-brand" to="/home" style={{
+          <Link className="navbar-brand" to="/" style={{
 
             fontFamily: 'Inter, sans-serif',
             fontWeight: 400,
