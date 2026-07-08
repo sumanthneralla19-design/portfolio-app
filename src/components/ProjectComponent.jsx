@@ -2,6 +2,7 @@ import ExperienceComponent from "./ProjectComponent";
 import { motion } from 'framer-motion'
 import application from '/application.png'
 import portfolio from '/portfolio.png'
+import burger from '/burger.png'
 
 
 export default function ProjectComponent() {
@@ -79,6 +80,29 @@ export default function ProjectComponent() {
 
             <p className="mb-0 text-white">
               A web application built using React to showcase my projects and skills.
+            </p>
+          </div>
+
+        </div>
+
+        <div className="col-7 d-flex align-items-start gap-3 my-5">
+
+          <div className="table2">
+            <img
+              src={burger}
+              alt="Burger App"
+              style={{ width: '4rem', height: '4rem', padding: '2px' }}
+            />
+          </div>
+
+          {/* TEXT CONTAINER */}
+          <div className="d-flex flex-column">
+            <p className="display-7 fw-bold text-white mb-1">
+              Inventory Management System
+            </p>
+
+            <p className="mb-0 text-white">
+              A web application built using React to manage inventory for a small business.
             </p>
           </div>
 

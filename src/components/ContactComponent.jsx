@@ -90,16 +90,16 @@ export default function ContactComponent() {
           <div className="row my-4 px-3" >
             <div className="col">
               <label htmlFor="name" className="form-label text-white fw-bold">Name</label>
-              <input type="text" className="form-control" placeholder="Your Name" aria-label="First name" />
+              <input type="text" name='name' className="form-control" placeholder="Your Name" aria-label="First name" />
             </div>
             <div className="col">
               <label htmlFor="email" className="form-label text-white fw-bold">Email</label>
-              <input type="text" className="form-control" placeholder="Your@email.com" aria-label="Last name" />
+              <input type="text" name='email' className="form-control" placeholder="Your@email.com" aria-label="Last name" />
             </div>
           </div>
           <div className="mb-3 px-3">
             <label htmlFor="exampleFormControlTextarea1" className="form-label text-white fw-bold">Message</label>
-            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <textarea className="form-control" name='message' id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
           <button type="submit" className="btn px-4" style={{ backgroundColor: 'orange', color: '#fff' }}>Submit</button>
 
